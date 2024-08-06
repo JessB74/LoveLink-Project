@@ -1,0 +1,37 @@
+
+.gradient-background {
+  background: linear-gradient(300deg, #ef8172,#0d6efd , #ef8172)
+  , linear-gradient(180deg, #ef8172, #0d6efd );
+ 
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+/* .profile-img {
+  height: 100px;
+  border-radius: 50%;
+} */
+.footer{
+background:linear-gradient(45deg,#ef8172 25%, #0d6dfdd4 ,  #ef8172 75%, #0d6dfdd4), linear-gradient(45deg, #ef8172, 25%, rgba(239, 239, 239, 0) 25%); 
+
+padding-left: 2rem;
+
+}
